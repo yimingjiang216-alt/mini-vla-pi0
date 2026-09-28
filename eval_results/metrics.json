@@ -1,0 +1,22 @@
+{
+  "ckpt": "ckpt/best.pt",
+  "train_epochs": 96,
+  "action": {
+    "action_mse": 0.15476153790950775,
+    "omega_sign_acc": 0.5302734375,
+    "cos_sim": 0.7445389032363892
+  },
+  "language": {
+    "omega_left": 0.4811902642250061,
+    "omega_right": -0.4774743914604187,
+    "omega_gap": 0.9586646556854248,
+    "per_sample_abs_gap": 0.9663691520690918
+  },
+  "cfg_sweep": {
+    "cfg_1.0": 0.9839095585048199,
+    "cfg_2.0": 1.5515052477518718,
+    "cfg_4.0": 2.0598670740922294,
+    "cfg_8.0": 2.35574010014534
+  },
+  "language_effective": true
+}

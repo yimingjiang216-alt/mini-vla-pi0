@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pt
+ckpt/
+eval_test/
+.DS_Store
