@@ -1,6 +1,7 @@
-__pycache__/
-*.pyc
-*.pt
-ckpt/
-eval_test/
+__pycache__/ 
+*.pyc 
+*.pt 
+ckpt/* 
+!ckpt/vla_best.pt 
+eval_test/ 
 .DS_Store
