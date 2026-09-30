@@ -56,6 +56,15 @@
 **核心结论**: 同一观测图像, 只改变语言指令, 生成的动作按指令改变
 (左转/右转角速度符号相反), 证明语言条件真正参与了决策, 而非装饰性输入.
 
+## 演示视频
+
+| 视频 | 内容 |
+|---|---|
+| [demo_trajectories.mp4](videos/demo_trajectories.mp4) | 同一观测 + 5 种语言指令, 轨迹逐帧分化动画 |
+| [demo_first_person.mp4](videos/demo_first_person.mp4) | 同一观测, `turn left` vs `turn right` 第一视角反向旋转对比 |
+
+复现: `python make_video.py`(依赖 imageio / imageio-ffmpeg / matplotlib)
+
 ## 世界模型闭环
 
 `visualize.py` 的 `world_model_loop` 用 VLA 生成的动作块驱动
