@@ -44,7 +44,7 @@
 
 ## 结果
 
-`python evaluate.py --ckpt ckpt/best.pt`
+`python evaluate.py --ckpt ckpt/vla_best.pt`
 
 | 指标 | 值 | 说明 |
 |---|---|---|
@@ -85,8 +85,8 @@ VLA 负责根据观测+指令产出动作, 两者共享数据管线.
 
 ```bash
 python train.py --epochs 120          # 约 7 分钟 (CPU)
-python evaluate.py --ckpt ckpt/best.pt
-python visualize.py --ckpt ckpt/best.pt --out figs
+python evaluate.py --ckpt ckpt/vla_best.pt
+python visualize.py --ckpt ckpt/vla_best.pt --out figs
 ```
 
 ## 复现记录
