@@ -2,7 +2,7 @@
 
 > 目标: 不依赖任何预训练权重, 在 CPU 上从零实现 π0 论文的核心架构
 > (ViT 视觉编码 + 语言条件 + Flow Matching 动作头), 并验证语言指令对
-> 生成动作的**可控性**. 与[动作条件视频世界模型](https://github.com/yimingjiang216-alt/world-model-video-dit)
+> 生成动作的**可控性**. 与[动作条件视频世界模型](https://github.com/yimingjiang216-alt/vision-worldmodel-projects)
 > 项目共享同一套 3D 导航仿真数据管线(`data.py` 逐字节共享),
 > 构成"世界模型生成轨迹 -> VLA 学习策略"的闭环.
 
