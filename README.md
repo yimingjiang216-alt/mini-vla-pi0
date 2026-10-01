@@ -92,6 +92,8 @@ VLA 负责根据观测+指令产出动作, 两者共享数据管线.
 
 ## 运行
 
+Windows 一键跑全部演示(评估+出图+视频): 双击 `run_demo.bat` 或命令行执行.
+
 ```bash
 python train.py --epochs 120          # 约 7 分钟 (CPU)
 python evaluate.py --ckpt ckpt/vla_best.pt
