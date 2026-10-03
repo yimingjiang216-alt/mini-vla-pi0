@@ -18,6 +18,11 @@
 深度学习含量反而更高 —— 调包跑 demo 只能写"使用了 xx 模型", 从零实现则能
 讲清 Flow Matching, ViT, CFG, action chunking 每一个细节.
 
+> **后记**: 2026-10 在 Kaggle 免费 T4 上跑通了真正的开源 π0.5 (LIBERO 微调权重, 3B)
+> 驱动 LIBERO/robosuite 机械臂完成取物任务, 3/3 集成功, 详见
+> [pi05-libero-sim](https://github.com/yimingjiang216-alt/pi05-libero-sim).
+> 本仓库从零实现补架构理解, 那个仓库验证开源权重真机闭环 —— 同一套 π0 范式的两种尺度.
+
 ## 架构
 
 ```
